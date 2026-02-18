@@ -16,25 +16,39 @@
 
 ## Project Structure
 
-    house-price-prediction/
+    house-price-api/
     │
-    ├─ app/
-    │ ├─ api/
-    │ │ └─ routes.py 
-    │ ├─ core/
-    │ │ └─ database.py 
-    │ ├─ ml/
-    │ │ └─ model.pkl 
-    │ ├─ models/
-    │ │ └─ prediction.py
-    │ └─ services/
-    │ └─ ml_service.py 
+    ├── app/
+    │   ├── api/
+    │   │   └── routes.py
+    │   │
+    │   ├── core/
+    │   │   └── database.py
+    │   │   
+    │   │
+    │   ├── models/
+    │   │   └── prediction.py
+    │   │
+    │   ├── schemas/
+    │   │   └── prediction.py
+    │   │
+    │   ├── services/
+    │   │   ├── ml_service.py
+    │   │   └── prediction_service.py
+    │   │
+    │   ├── ml/
+    │   │   ├── train_model.py
+    │   │   └── model.pkl
+    │   │
+    │   ├── main.py
+    │   └── __init__.py
     │
-    ├─ main.py 
-    ├─ requirements.txt 
-    ├─ Dockerfile 
-    ├─ docker-compose.yml 
-    └─ .env 
+    ├── requirements.txt
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── .env
+    └── README.md
+
 
 ## Installation
 
