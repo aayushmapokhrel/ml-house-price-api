@@ -40,29 +40,29 @@ A FastAPI-based REST API for predicting house prices using a trained Random Fore
 
 ## Installation
 
-Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/<your-username>/ml-house-price-api.git
 
-##Create and activate a virtual environment:
+## Create and activate a virtual environment:
 python -m venv venv
 venv\Scripts\activate      # Windows
 # or
 source venv/bin/activate   # Mac/Linux
 
-##Install dependencies:
+## Install dependencies:
 pip install -r requirements.txt
 
-##Set up .env:
+## Set up .env:
 DATABASE_URL=postgresql://postgres:password@db:5432/house_db
 SECRET_KEY=your-secret-key
 
-##Running with Docker
+## Running with Docker
 docker-compose up --build
 
 API will be available at: http://127.0.0.1:8000/docs
 
-##Request body example:
+## Request body example:
   {
     "median_income": 8.32,
     "house_age": 41,
@@ -70,7 +70,7 @@ API will be available at: http://127.0.0.1:8000/docs
     "population": 322
   }
 
-##Response:
+## Response:
   {
     "predicted_price": 4.21
   }
