@@ -5,10 +5,10 @@
 ## Features
 
     - Predict house prices based on features:
-      - `median_income`
-      - `house_age`
-      - `rooms`
-      - `population`
+      - median_income
+      - house_age
+      - rooms
+      - population
     - Store predictions in a PostgreSQL database
     - Simple, RESTful API powered by **FastAPI**
     - Uses **Random Forest** for regression
